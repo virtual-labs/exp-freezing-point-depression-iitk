@@ -2,9 +2,9 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1 The solvent of this experiment should be",
       "answers": {
-        "a": "answer1",
+        "a": "a. Non-volatile in nature",
         "b": "answer2",
         "c": "answer3",
         "d": "answer4"
