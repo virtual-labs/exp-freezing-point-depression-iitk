@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.The solvent of this experiment should be,?",
+      "answers": {
+        "a": "Non-volatile in nature",
+        "b": "Volatile in nature",
+        "c": "Non-volatile and volatile both are accepted ",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2)Freezing point depression depends on,?",
+      "answers": {
+        "a": "Number of solutes",
+        "b": "Nature of solute",
+        "c": "Odour of solute ",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3)The Kf value depends on ?",
+      "answers": {
+        "a": "Solvent",
+        "b": "Solute",
+        "c": "Solution",
+        "d": "Temperature"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4)The Kf  value of naphthalene is,?",
+      "answers": {
+        "a": "10.8 ℃.mol-1.kg",
+        "b": "15.6 ℃.mol-1.kg",
+        "c": "6.90 ℃.mol-1.kg ",
+        "d": "4.8 ℃.mol-1.kg"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5)The freezing Point of pure Naphthalene is?",
+      "answers": {
+        "a": "-5.8 ℃",
+        "b": "10 ℃",
+        "c": "20 ℃",
+        "d": "80.2 ℃"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.After adding a solute in a solvent, the freezing point of the solvent is found to be decreased. This observation is referred as ?",
+      "answers": {
+        "a": "Elevation of boiling point",
+        "b": "Depression of boiling point",
+        "c": "Depression of freezing point",
+        "d": "Elevation of freezing point"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2.The colligative property depends on the?",
+      "answers": {
+        "a": "Number of total solvent present ",
+        "b": "Amount of total solvent present ",
+        "c": "Amount of added solute",
+        "d": "Number of added solute"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3.The correct relation between depression of freezing point and molality is?",
+      "answers": {
+        "a": "∆T_f= K_f  ×molality", 
+        "b": "∆T_f= K_f  /molality",
+        "c": "  ∆T_f= molality/K_f ",
+        "d": " ∆T_f= molality/K_b "
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4.Unit of cryoscopic constant is ?",
+      "answers": {
+        "a": "Kg. mol. K",
+        "b": "K-1. Kg. mol",
+        "c": "K. Kg. mol-1",
+        "d": "Kg.mol-1. K-1 constant"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.The definition of molality for a solution is ?",
+      "answers": {
+        "a": "Number of moles of solute dissolved in per Kg of the solvent", 
+        "b": "Number of moles of solute dissolved in per mL of the solvent ",
+        "c": "Number of gram equivalent of solute dissolved in per mL of the solvent ",
+        "d": "None of the above "
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+      
+    
+  ]
+}
