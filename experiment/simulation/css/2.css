@@ -1,0 +1,135 @@
+/* Reset some default styles for better consistency */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    position: relative;
+    background-color: rgb(170, 165, 121);
+    }
+/* Header section styles */
+header {
+    display: flex;
+    width: 100vmax;
+    height: 1.5 vmax;
+    background-color: khaki;
+    justify-content:space-between;
+    align-items: center;
+}
+header img{
+    width: 1.25vmax;
+}
+header h3{
+    font-size: 1.25vmax;
+}
+#language-switch select {
+    font-size: 0.75vmax;
+    background-color: darkkhaki;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#content{
+    position: relative;
+}
+#beakerfilled{
+    top: 18.5vmax;
+    left:40vmax;
+    width: 7vmax;
+    height:9vmax;
+    position: absolute;
+    cursor: grab;
+    z-index: 5;
+}
+#burner{
+    top: 21vmax;
+    left: 5.5vmax;
+    width:17vmax;
+    height: 7vmax;
+    position: absolute;
+}
+#flame{
+    top: 20.35vmax;
+    left:17.9vmax;
+    width: 5.75vmax;
+    height:0.75vmax;
+    position: absolute;
+}
+#gauge{
+    top: 17.95vmax;
+    left: 15.75vmax;
+    width: 11vmax;
+    height: 3vmax;
+    position: absolute;
+    cursor:grab
+}
+#lab{
+    width: 100vmax;
+    height: 45vmax;
+}
+#timer{
+    top:       03vmax;
+    left:      33vmax;
+    width:     15vmax;
+    position:absolute;
+}
+#tripod{
+    top: 18.25vmax;
+    left: 17.5vmax;
+    width: 7vmax;
+    height:9vmax;
+    position: absolute;
+    cursor:grab;
+}
+/* Footer section styles */
+footer{
+    width: 100vmax;
+    display: flex;
+    background-color:coral;
+    justify-content: space-between;
+    align-items: center;
+}
+#content-en {
+    width: 100vmax;
+    display: flex;
+    position: absolute;
+    background-color:coral;
+    justify-content: space-between;
+    align-items: center;
+}
+#content-hi {
+    width: 100vmax;
+    display: flex;
+    position: absolute;
+    background-color:coral;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Prev and Next buttons */
+button {
+    background-color:silver;
+    font-size: 0.85vmax;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 3.5vmax;
+    height: 1.5vmax;
+    
+}
+button:hover{
+    background-color:rgb(75, 73, 73);
+    transform:translateY(-0.1vmax);
+}
+h5{
+    position: relative;
+    font-size: 1vmax;
+    animation-name: Steps;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes Steps{
+    0%{left: -641px;}
+    100%{left: 0px;}
+}

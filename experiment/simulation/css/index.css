@@ -1,0 +1,349 @@
+/* Reset some default styles for better consistency */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    position: relative;
+    background-color: rgb(170, 165, 121);
+    }
+/* Header section styles */
+header {
+    display: flex;
+    width: 100vmax;
+    height: 1.5 vmax;
+    background-color: khaki;
+    justify-content:space-between;
+    align-items: center;
+}
+header img{
+    width: 1.25vmax;
+}
+header h3{
+    font-size: 1.25vmax;
+}
+#language-switch select {
+    font-size: 0.75vmax;
+    background-color: darkkhaki;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.image-container:hover .image1{
+    display: block;
+}
+.image-container:hover .image2{
+    display: block;
+}
+.image-container:hover .image3{
+    display: block;
+}
+.image-container:hover .image4{
+    display: block;
+}
+.image-container:hover .image5{
+    display: block;
+}
+.image-container:hover .image6{
+    display: block;
+}
+.image-container:hover .image7{
+    display: block;
+}
+.image-container:hover .image8{
+    display: block;
+}
+.image-container:hover .image9{
+    display: block;
+}
+.image-container:hover .image10{
+    display: block;
+}
+.image-container:hover .image11{
+    display: block;
+}
+.image-container:hover .image12{
+    display: block;
+}
+.image-container:hover .image12{
+    display: block;
+}
+.image-container:hover .image13{
+    display: block;
+}
+.image-container:hover .image14{
+    display: block;
+}
+.image-container:hover .image15{
+    display: block;
+}
+#beaker{
+    top: 19vmax;
+    left: 83vmax;
+    width: 7vmax;
+    height: 9vmax;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer
+}
+.image1{
+    position: absolute;
+    top: 28.35vmax;
+    left: 85.5vmax;
+    display: none;
+}
+#burner{
+    top: 21vmax;
+    left:5.75vmax;
+    width: 18.25vmax;
+    height: 7vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image2{
+    position: absolute;
+    top: 28.35vmax;
+    left: 20.5vmax;
+    display: none;
+}
+#clampstand{
+    top: 8.25vmax;
+    left: 11.75vmax;
+    width: 9vmax;
+    height: 17vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image3{
+    position: absolute;
+    top: 21.5vmax;
+    left: 14.75vmax;
+    display: none;
+}
+#weight{
+    top: 24.25vmax;
+    left: 73vmax;
+    width: 7vmax;
+    height:3vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image4{
+    position: absolute;
+    top: 28.35vmax;
+    left: 73.75vmax;
+    display: none;
+}
+#funnel{
+    top:22.5vmax;
+    left: 57.75vmax;
+    width: 4vmax;
+    height:7vmax;
+    cursor: pointer;
+    transform-origin: center;
+    transform: rotate(70deg);
+    position: absolute;
+}
+.image5{
+    position: absolute;
+    top: 28.35vmax;
+    left: 59vmax;
+    display: none;
+}
+#gauge{
+    top: 18.5vmax;
+    left: 43.95vmax;
+    width: 11vmax;
+    height: 3vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image6{
+    position: absolute;
+    top: 17.25vmax;
+    left:46.75vmax;
+    display: none;
+}
+#lab{
+    width: 100vmax;
+    height: 45vmax;
+}
+#napthalene{
+    top: 20.25vmax;
+    left: 63.5vmax;
+    width: 7.5vmax;
+    height:5vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image7{
+    position: absolute;
+    top: 19vmax;
+    left: 65.25vmax;
+    display: none;
+}
+#scale{
+    top: 15vmax;
+    left: 26.5vmax;
+    width: 9vmax;
+    height: 13vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image8{
+    position: absolute;
+    top: 28.5vmax;
+    left: 27.25vmax;
+    display: none;
+}
+#spatula{
+    top: 23.15vmax;
+    left: 65.75vmax;
+    width: 9vmax;
+    height:4.75vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image9{
+    position: absolute;
+    top: 28.5vmax;
+    left: 69vmax;
+    display: none;
+}
+#stirrer{
+    top: 19vmax;
+    left: 79vmax;
+    width: 7vmax;
+    height: 9vmax;
+    z-index: 2;
+    cursor: pointer;
+    position: absolute;
+}
+.image10{
+    position: absolute;
+    top: 28.5vmax;
+    left: 78.25vmax;
+    display: none;
+}
+#sulphur{
+    top: 14vmax;
+    left: 89vmax;
+    width: 6.5vmax;
+    height: 10vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image11{
+    position: absolute;
+    top: 12.5vmax;
+    left: 89vmax;
+    display: none;
+}
+#thermometer{
+    top: 21.75vmax;
+    left: 35.75vmax;
+    width: 9.75vmax;
+    height:6vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image12{
+    position: absolute;
+    top: 28.5vmax;
+    left: 37.95vmax;
+    display: none;
+}
+#tripod{
+    top: 18.75vmax;
+    left: 45.75vmax;
+    width: 7vmax;
+    height: 9vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image13{
+    position: absolute;
+    top: 28.5vmax;
+    left: 47.75vmax;
+    display: none;
+}
+#tube{
+    top: 21.75vmax;
+    left: 55vmax;
+    width: 1.75vmax;
+    height: 7vmax;
+    cursor: pointer;
+    transform-origin: center;
+    transform: rotate(60deg);
+    position: absolute;
+}
+.image14{
+    position: absolute;
+    top: 28.5vmax;
+    left: 54vmax;
+    display: none;
+}
+#water{
+    top: 15vmax;
+    left: 37.5vmax;
+    width: 6.5vmax;
+    height: 11vmax;
+    cursor: pointer;
+    position: absolute;
+}
+.image15{
+    position: absolute;
+    top: 28.5vmax;
+    left: 39.5vmax;
+    display: none;
+}
+/* Footer section styles */
+footer{
+    width: 100vmax;
+    display: flex;
+    background-color:coral;
+    align-items: center;
+}
+#content-en {
+    width: 100vmax;
+    display: flex;
+    position: absolute;
+    background-color:coral;
+    align-items: center;
+    
+}
+#content-hi {
+    width: 100vmax;
+    display: flex;
+    position: absolute;
+    background-color:coral;
+    align-items: center;
+}
+/* Prev and Next buttons */
+button {
+    background-color:silver;
+    font-size: 0.85vmax;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 3.5vmax;
+    height: 1.5vmax;
+    
+}
+button:hover{
+    background-color:rgb(75, 73, 73);
+    transform:translateY(-0.1vmax);
+}
+h5{
+    position: absolute;
+    font-size: 1vmax;
+    animation-name: Steps;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes Steps{
+    0%{left: -10vmax;}
+    100%{left: 42.5%;}
+}
