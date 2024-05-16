@@ -1,0 +1,242 @@
+/* Reset some default styles for better consistency */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    position: relative;
+    background-color: rgb(170, 165, 121);
+    }
+/* Header section styles */
+header {
+    display: flex;
+    width: 100vmax;
+    height: 1.5 vmax;
+    background-color: khaki;
+    justify-content:space-between;
+    align-items: center;
+}
+header img{
+    width: 1.25vmax;
+}
+header h3{
+    font-size: 1.25vmax;
+}
+#language-switch select {
+    font-size: 0.75vmax;
+    background-color: darkkhaki;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.move-weight1,.move-stand, .move-tube1{
+    transform: translate(0, 0);
+    transition: transform 2.5s; /* Add a transition property for smoother movement */
+}
+#beaker{
+    top:     11.5vmax;
+    left:   17.15vmax;
+    width:      7vmax;
+    height:     9vmax;
+    position:absolute;
+    cursor:      grab;
+    z-index:        2;
+}
+#burner{
+    top:       21vmax;
+    left:     5.5vmax;
+    width:     17vmax;
+    height:     7vmax;
+    z-index:        5;
+    cursor:      grab;
+    position:absolute;
+}
+#clampstand{
+    top:      2.5vmax;
+    left:    14.5vmax;
+    width:      9vmax;
+    height:    23vmax;
+    cursor:   pointer;
+    position:absolute;
+    z-index:        4;
+}
+#flame{
+    top:    20.4vmax;
+    left:    17.9vmax;
+    width:   5.75vmax;
+    height:  0.75vmax;
+    position:absolute;
+    z-index:        4;
+}
+#gauge{
+    top: 17.95vmax;
+    left: 15.5vmax;
+    width: 11vmax;
+    height: 3vmax;
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+}
+#lab{
+    width: 100vmax;
+    height: 45vmax;
+}
+#scale{
+    top:    14.25vmax;
+    left:      43vmax;
+    width:    9.5vmax;
+    height: 13.75vmax;
+    position:absolute;
+}
+#scale_{
+    top:    14.15vmax;
+    left:      43vmax;
+    width:    9.5vmax;
+    height: 13.75vmax;
+    position:absolute;
+}
+#scale1{
+    top:       21vmax;
+    left:      43vmax;
+    width:    9.5vmax;
+    height: 13.75vmax;
+    position:absolute;
+}
+#scale3{
+    top:    14.15vmax;
+    left:      43vmax;
+    width:    9.5vmax;
+    height: 13.75vmax;
+    position:absolute;
+}
+#scale4{
+    top:    14.15vmax;
+    left:      43vmax;
+    width:    9.5vmax;
+    height: 13.75vmax;
+    position:absolute;
+}
+#tube{
+    top:     9.75vmax;
+    left:   20.05vmax;
+    width:   1.75vmax;
+    height:     7vmax;
+    position:absolute;
+    cursor:      grab;
+    z-index:        2;
+}
+#tube1{
+    top:     9.75vmax;
+    left:   20.05vmax;
+    width:   1.75vmax;
+    height:     7vmax;
+    position:absolute;
+    cursor:      grab;
+    z-index:        2;
+}
+#spatula{
+    top: 23.15vmax;
+    left: 65.75vmax;
+    width: 9vmax;
+    height:4.75vmax;
+    z-index: 2;
+    cursor: grabbing;
+    position: absolute;
+}
+#spatula_{
+    top: 16.5vmax;
+    left: 67.5vmax;
+    width: 9vmax;
+    height: 4.75vmax;
+    position: absolute;
+    cursor: grab;
+    z-index: 2;
+}
+#sulphur_{
+    top: 23.65vmax;
+    left: 77vmax;
+    width: 4.5vmax;
+    height: 7.25vmax;
+    cursor: grabbing;
+    position: absolute;
+    z-index: 1;
+}
+#tripod{
+    top: 18.5vmax;
+    left: 17.5vmax;
+    width: 7vmax;
+    height:9vmax;
+    position: absolute;
+    cursor:grab;
+    z-index: 4;
+}
+#waterfill{
+    top:    13.75vmax;
+    left:   18.05vmax;
+    width:    5.85vmax;
+    height:  6.65vmax;
+    position:absolute;
+    cursor:      grab;
+    z-index:        4;
+}
+#weight1{
+    top:       21vmax;
+    left:   43.99vmax;
+    width:      7vmax;
+    height:     3vmax;
+    cursor:   pointer;
+    position:absolute;
+    z-index:        1;
+}
+/* Footer section styles */
+footer{
+    width: 100vmax;
+    display: flex;
+    background-color:coral;
+    align-items: center;
+    justify-content: space-between;
+}
+#content-en {
+    width: 100vmax;
+    display: flex;
+    position: absolute;
+    background-color:coral;
+    align-items: center;
+    justify-content: space-between;
+}
+#content-hi {
+    width: 100vmax;
+    display: flex;
+    position: absolute;
+    background-color:coral;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Prev and Next buttons */
+button {
+    background-color:silver;
+    font-size: 0.85vmax;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 3.5vmax;
+    height: 1.5vmax;
+    
+}
+button:hover{
+    background-color:rgb(75, 73, 73);
+    transform:translateY(-0.1vmax);
+}
+h5{
+    position: relative;
+    font-size: 1vmax;
+    animation-name: Steps;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes Steps{
+    0%{left: -100vmax;}
+    100%{left: 0vmax;}
+}
