@@ -4,8 +4,7 @@
 <b>Discipline | <b> Chemical Engineering
 :--|:--|
 <b> Lab | <b> Basic Chemistry Laboratory-I
-<b> Experiment| <b> Estimation of molecular weight from freezing point
-depression.
+<b> Experiment| <b> Estimation of molecular weight from freezing point depression.
 
 ### About the Experiment 
 
