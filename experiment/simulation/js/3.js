@@ -16,7 +16,7 @@ tube.addEventListener("click", function() {
     }
     scale.addEventListener("click",function(){
         if(tubeMoved){
-            scale.src="/images/Analytical Balance On.png"
+            scale.src="images/Analytical Balance On.png"
         }
         weight.addEventListener("click", function(){
             if(!weightMoved){
@@ -24,10 +24,10 @@ tube.addEventListener("click", function() {
                 weight.style.transform = "translate(-45.5vmax,-3vmax)";
                 weightMoved=true; /* Adjust values as needed */
                 setTimeout(function(){
-                scale.src="/images/Analytical Balance Open.png"
+                scale.src="images/Analytical Balance Open.png"
                 },1200);
                 setTimeout(function(){
-                scale.src="/images/Analytical Balance_dish.png"
+                scale.src="images/Analytical Balance_dish.png"
                 },2200);
             }
             spatula.addEventListener("click",function(){
@@ -36,17 +36,17 @@ tube.addEventListener("click", function() {
                     setTimeout(function(){
                         spatula.style.display="none";
                         spatula_.style.display="block";
-                        napthalene.src="/images/Napthalene1.png"
+                        napthalene.src="images/Napthalene1.png"
                     },2000);
                     setTimeout(function() {
                         spatula_.style.transform="translate(-37vmax,1.75vmax)";
                     }, 3000);
                     setTimeout(function(){
-                        spatula_.src="/images/spatula.png"
+                        spatula_.src="images/spatula.png"
                         weight.style.display="none";
                         weight_.style.display="block";
                         spatula_.style.transform="translate(2.5vmax,6.7vmax)";
-                        scale.src="/images/Analytical Balance_3g.png"                          
+                        scale.src="images/Analytical Balance_3g.png"                          
                     }, 5500);
                 }
             });
