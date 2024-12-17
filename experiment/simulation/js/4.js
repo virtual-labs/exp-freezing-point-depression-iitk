@@ -21,8 +21,8 @@ weight_.addEventListener("click",function(){
         },1500);
         setTimeout(function() {
             weight_.style.transform="translate(25vmax,3vmax)";
-            weight_.src="/images/Weighing boat.png"
-            tube.src="/images/Test Tube_.png"
+            weight_.src="images/Weighing boat.png"
+            tube.src="images/Test Tube_.png"
         },3500);
         weight_Moved=true;
     }
@@ -46,7 +46,7 @@ weight_.addEventListener("click",function(){
                 readings.style.display="none"
             },3000);
             setTimeout(function(){
-                tube.src="/images/Test Tube1.png"
+                tube.src="images/Test Tube1.png"
             },7000);
             }
         });

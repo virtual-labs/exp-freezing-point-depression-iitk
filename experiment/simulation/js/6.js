@@ -14,7 +14,7 @@ burner.addEventListener("click",function(){
     if(!burnerMoved){
             flame.style.display="block";
             setTimeout(function(){
-                tube1.src="/images/Test Tube_.png";
+                tube1.src="images/Test Tube_.png";
             },7000);
         }
         weight1.addEventListener("click",function(){
@@ -27,7 +27,7 @@ burner.addEventListener("click",function(){
             },1500);
             setTimeout(function() {
                 weight1.style.transform="translate(25vmax,2.5vmax)";
-                weight1.src="/images/Weighing boat.png"
+                weight1.src="images/Weighing boat.png"
             },3500);
             weight1Moved=true;
         }
