@@ -323,13 +323,13 @@ footer{
 /* Prev and Next buttons */
 button {
     background-color:silver;
-    font-size: 0.85vmax;
+    font-size: 1.5vmax;
     font-weight: bold;
     border-style: solid;
     border-radius: 5px;
     cursor: pointer;
-    width: 3.5vmax;
-    height: 1.5vmax;
+    width: 5.5vmax;
+    height: 2.5vmax;
     
 }
 button:hover{
@@ -347,3 +347,9 @@ h5{
     0%{left: -10vmax;}
     100%{left: 42.5%;}
 }
+
+#start{
+    font-size: 2vmax;
+
+}
+
