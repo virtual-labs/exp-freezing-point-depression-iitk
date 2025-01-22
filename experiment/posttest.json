@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1.The solvent of this experiment should be,?",
+      "question": "1.The solvent used in this experiment should be,?",
       "answers": {
-        "a": "Non-volatile in nature",
-        "b": "Volatile in nature",
+        "a": "Non-volatile",
+        "b": "Volatile",
         "c": "Non-volatile and volatile both are accepted ",
-        "d": "None of the above"
+        "d": "in liquid form at room temperature"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,29 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2)Freezing point depression depends on,?",
+      "question": "2)Consider solute A and solute B of identical molality in a given solvent. Solute A dissociates into two species in solvent, whereas solute B dissolves in the solvent as a single species. The freezing point depression of the solution of solute A will be -------- that of solute B",
       "answers": {
-        "a": "Number of solutes",
-        "b": "Nature of solute",
-        "c": "Odour of solute ",
-        "d": "All of the above"
+        "a": "Equal to ",
+        "b": "twice as much as",
+        "c": "half as much as",
+        "d": "less than by some unknown amount to"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3)The cryostatic constant Kf is a characteristic value for a",
+      "answers": {
+        "a": "Solvent even for different solutes ",
+        "b": "Solute even for different solvents",
+        "c": "Solute in a given solvent",
+        "d": "solvent for a given solute"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -36,12 +53,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3)The Kf value depends on ?",
+      "question": "4)The key assumption used in the experiment to determine the molecular weight of the rhombic sulphur is ",
       "answers": {
-        "a": "Solvent",
-        "b": "Solute",
-        "c": "Solution",
-        "d": "Temperature"
+        "a": "Sulphur particles do not associte or dissociate into smaller particles in naphthalene",
+        "b": "Sulphur has a higher melting point than naphthalene",
+        "c": "Sulphur has a lower melting point than naphthalene",
+        "d": "Naphthalene is a solid at room temperature"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -49,16 +66,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "4)The Kf  value of naphthalene is,?",
+      "question": "5)The freezing Point is determined graphically from the temperature versus time graph by observing a",
       "answers": {
-        "a": "10.8 ℃.mol-1.kg",
-        "b": "15.6 ℃.mol-1.kg",
-        "c": "6.90 ℃.mol-1.kg ",
-        "d": "4.8 ℃.mol-1.kg"
+        "a": "flat region in the graph",
+        "b": "region of positive slope in the graph",
+        "c": "region of negative slope in the graph",
+        "d": "linear region in the graph"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -66,24 +83,7 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "5)The freezing Point of pure Naphthalene is?",
-      "answers": {
-        "a": "-5.8 ℃",
-        "b": "10 ℃",
-        "c": "20 ℃",
-        "d": "80.2 ℃"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "d",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
