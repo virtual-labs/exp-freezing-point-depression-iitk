@@ -27,7 +27,7 @@ Depression of freezing point,<br>
 <img src="images/fig7.jpg" width="300" height="400"><br>
 <br>
 <centre><b>See the video!</b><centre></br><br>
-<b> Data and the analysis </b></br>
+<b> Sample Data and Analysis </b></br>
 <b> Determination of freezing point of pure naphthalene and naphthalene-solute mixture </b><br>
 <br>
 <img src="images/fig8.png"><br>
@@ -44,14 +44,6 @@ M=K<sub>f</sub>×w<sub>solute</sub>×1000/ΔT<sub>f</sub>×w<b>solvent</b><br>
 
 M=(6.9×1×1000)/(5×5)=276 g mol<sup>(-1)</sup><br>
 <br>
-
-<b> Procedure in simulator of the experiment</b><br>
-<br>
-To be added based on the simulation
-
-<b>Analysis</b><br>
-<br>
-From the experiment, the molecular weight of the unknown solute is measured as 272 g/mol. In this experiment, rhombic sulphur (S8) was used as the unknown solute which has an actual mass of 256 g/mol.
 
 
 
