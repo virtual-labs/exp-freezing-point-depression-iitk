@@ -36,24 +36,21 @@
                 <img id="waterfill" src="images/Water Fill.png">
                 <img id="sulphur_" src="images/Sulphur Powder_.png" alt="Sulphur Powder" style="display: none;">
             </div>
-            <footer>
-                <!-- Content for English -->
-                <div id="content-en">
-                    <a href="5.html"><button class="prev">Prev</button></a>
-                    <h5 id="welcome">Replace the test tube in the water bath and heat until
-                        all the naphthalene has melted. Add sulfur powder into the
-                        test tube. Click "Next"</h5>
-                        <audio src="Sound/6-En.wav" autoplay></audio>
-                    <a href="7.html"><button class="next">Next</button></a>
-                </div>
-                <!-- Content for Hindi -->
-                <div id="content-hi" style="display:none">
-                    <a href="5.html"><button class="prev">पहले</button></a>
-                    <h5 class="welcome">टेस्ट ट्यूब को पानी के स्नान में बदलें और तब तक गर्म करें जब तक कि सारा नेफ़थलीन पिघल न जाए। टेस्ट ट्यूब में सल्फर पाउडर डालें। अगला पर क्लिक करें</h5>
-                    <a href="7.html"><button class="prev">आगे</button></a>
-                </div>
+           <footer>
+                <a href="5.html"><button id="prevBtn">Prev</button></a>
+                <h5 id="instructionText">Replace the test tube in the water bath and heat until all the naphthalene has melted. Add sulfur powder into the test tube. Click "Next"</h5>
+                <a href="7.html"><button id="nextBtn">Next</button></a>
             </footer>
+            <div id="language-switch">
+                <select id="langSelect">
+                    <option value="eng">ENG</option>
+                    <option value="hindi">हिंदी</option>
+                </select>
+            </div>
+
         </div>
         <script type="text/javascript" src="js/6.js"></script>
+        <script src="js/Script.js"></script>
+
     </body>
 </html>

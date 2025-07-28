@@ -9,6 +9,7 @@ body{
     position: relative;
     background-color: rgb(170, 165, 121);
     }
+
 /* Header section styles */
 header {
     display: flex;
@@ -117,6 +118,41 @@ button {
     width: 5.5vmax;
     height: 2.5vmax;
     
+}
+#tmeter-0,
+#tmeter-20,
+#tmeter-30,
+#tmeter-40,
+#tmeter-50,
+#tmeter-60,
+#tmeter-85,
+#tmeter-80 {
+  position: absolute;
+  left: 21.5%;        /* centre of the test‑tube – adjust if needed */
+  top: 16.1%;
+  height: 20%;
+  z-index: 100;
+
+  /* start hidden → JS toggles these two props */
+  visibility: hidden;
+  opacity: 0;
+
+  /* smooth fade when JS flips opacity */
+
+}
+#tmeter {
+  position: absolute;
+   top:    21.75vmax;
+    left:      55vmax;
+  height: 6%;
+  cursor:      pointer;
+  z-index: 100;
+
+  /* any change to transform / left / top animates smoothly */
+  transition:
+    transform 1s ease,
+    top 1s ease,
+    left 1s ease;
 }
 button:hover{
     background-color:rgb(75, 73, 73);
