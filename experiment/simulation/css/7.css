@@ -18,6 +18,69 @@ header {
     justify-content:space-between;
     align-items: center;
 }
+#tmeter-0,
+#tmeter-20,
+#tmeter-30,
+#tmeter-40,
+#tmeter-50,
+#tmeter-60,
+#tmeter-85 {
+  position: absolute;
+  left: 22.5%;        /* centre of the test‑tube – adjust if needed */
+  top: 12%;
+  height: 20%;
+  z-index: 100;
+
+  /* start hidden → JS toggles these two props */
+  visibility: hidden;
+  opacity: 0;
+
+  /* smooth fade when JS flips opacity */
+  /* transition: opacity 0.5s ease; */
+}
+  .wrapper{
+    position: absolute;
+    top: 39%;
+    left: 81%;
+    transform: translate(-50%,-50%);
+    visibility: visible;
+    z-index: 100;
+}
+.wrapper p{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    z-index: 9999;
+    font-size: 48px;
+    margin-bottom: 120px;
+    left: 35%;
+}
+.wrapper p::before{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #151538;
+    z-index: -1;
+    border-radius: 50%;
+	left: -40%;
+    top: -118%;
+    animation-name: shine;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#tmeter {
+    position: absolute;
+    left: 60%;
+    top: 49%;
+    height: 6%;
+    /* smooth moves & fades */
+    transition:
+      top 1s ease,
+      left 1s ease,
+      transform 1s ease,
+      opacity 0.5s ease;
+  }
 header img{
     width: 1.25vmax;
 }

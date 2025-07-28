@@ -19,7 +19,16 @@
                 </div>    
             </header>
             <div class="content">
-                <img id="timer" src="images/85 degree.webp" alt="Temperature">
+                <!-- <img id="timer" src="images/85 degree.webp" alt="Temperature"> -->
+                 <img id="tmeter-0" src="images/Thermometer.png" alt="Thermometer 0 degree">
+                <img id="tmeter-20" src="images/20Thermometerorg.png" alt="Thermometer 20 degree">
+                <img id="tmeter-30" src="images/30Thermometerorg.png" alt="Thermometer 30 degree">
+                <img id="tmeter-40" src="images/40Thermometerorg.png" alt="Thermometer 40 degree">
+                <img id="tmeter-50" src="images/50Thermometerorg.png" alt="Thermometer 50 degree">
+                <img id="tmeter-60" src="images/60Thermometerorg.png" alt="Thermometer 60 degree">
+                <img id="tmeter-85" src="images/85Thermometerorg.png" alt="Thermometer 85 degree">
+                
+                <img id="tmeter" src="images/Thermometer-0.png" alt="Thermometer 0 degree">
                 <img id="beaker" src="images/Beaker.png" alt="Beaker">
                 <img id="burner" src="images/Burner.png" alt="Burner" class="burner">
                 <img id="clampstand" src="images/Clamp Stand.png" alt="Clamp Stand" class="move-stand">
@@ -31,7 +40,7 @@
                 <img id="scale2" src="images/Analytical Balance_dish.png" alt="Analytical Balance" style="display: none;">
                 <img id="scale3" src="images/Analytical Balance_3g.png" alt="Analytical Balance">
                 <img id="scale1" src="images/Analytical Balance open.png" alt="Analytical Balance" style="display: none;">
-                <img id="thermometer" src="images/Thermometer.png" alt="Thermometer" class="move-thermometer">
+                <!-- <img id="thermometer" src="images/Thermometer.png" alt="Thermometer" class="move-thermometer"> -->
                 <img id="tripod" src="images/Tripod.png" alt="Tripod">
                 <img id="tube" src="images/Test Tube.png" alt="Test Tube" class="move-tube">
                 <img id="tube_" src="images/Test Tube_.png" alt="Test Tube" class="move-tube_" style="display: none;">
@@ -40,24 +49,27 @@
                 <img id="weight" src="images/Weighing boat.png" alt="Weighing Boat" class="move-weight" style="display:none;">
                 <img id="weight_" src="images/Weighing boat_.png" alt="Weighing Boat" class="move-weight_">
             </div>
-            <footer>
-                <!-- Content for English -->
-                <div id="content-en">
-                    <a href="3.html"><button class="prev">Prev</button></a>
-                    <h5 id="welcome">Put napthalene in test tube and insert the thermometer into the test tube. When
-                        all the naphthalene has melted, stop heating. Finally, click on the thermometer to record temperature at the interval of 30s.Click "Next"</h5>
-                        <audio src="Sound/4-En.wav" autoplay></audio>
-                    <a href="5.html"><button class="next">Next</button></a>
-                </div>
-                <!-- Content for Hindi -->
-                <div id="content-hi" style="display:none">
-                    <a href="3.html"><button class="prev">पहले</button></a>
-                    <h5 class="welcome">अब, नेफ़थलीन को टेस्ट ट्यूब में डालें और थर्मामीटर को टेस्ट ट्यूब में डालें। जब सारा नेफ़थलीन
-                        पिघल जाए, गर्म करना बंद कर दें। अगला पर क्लिक करें"</h5>
-                    <a href="5.html"><button class="prev">आगे</button></a>
-                </div>
+          <footer>
+                <a href="3.html"><button id="prevBtn">Prev</button></a>
+                <h5 id="instructionText">Put napthalene in test tube and insert the thermometer into the test tube. When all the naphthalene has melted, stop heating. Finally, click on the thermometer to record temperature at the interval of 30s. Click "Next"</h5>
+               <a href="5.html"><button id="nextBtn">Next</button></a>
             </footer>
+            <div id="language-switch">
+                <select id="langSelect">
+                    <option value="eng">ENG</option>
+                    <option value="hindi">हिंदी</option>
+                </select>
+            </div>
+             <div class="wrapper">
+            <p>
+            <span class="seconds">00</span>:<span class="tens">00</span>
+            </p> <br>
+        </div>
+ 
+
         </div>
         <script type="text/javascript" src="js/4.js"></script>
+        <script src="js/Script.js"></script>
+
     </body>
 </html>

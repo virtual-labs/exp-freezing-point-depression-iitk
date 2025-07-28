@@ -28,28 +28,37 @@
                 <img id="scale" src="images/Analytical Balance Off.png" alt="Analytical Balance" class="move-scale" style="display: none;">
                 <img id="readings" src="images/Readings.png" style="display: none;">
                 <img id="tripod" src="images/Tripod.png" alt="Tripod" class="tripod">
-                <img id="thermometer" src="images/Thermometer.png" alt="Thermometer" class="move-thermometer">
+                <!-- <img id="thermometer" src="images/Thermometer.png" alt="Thermometer" class="move-thermometer"> -->
+                  <img id="tmeter" src="images/Thermometer-0.png" alt="Thermometer 0 degree">
+                <img id="tmeter-20" src="images/20Thermometerorg.png" alt="Thermometer 20 degree">
+                <img id="tmeter-30" src="images/30Thermometerorg.png" alt="Thermometer 30 degree">
+                <img id="tmeter-40" src="images/40Thermometerorg.png" alt="Thermometer 40 degree">
+                <img id="tmeter-50" src="images/50Thermometerorg.png" alt="Thermometer 50 degree">
+                <img id="tmeter-60" src="images/60Thermometerorg.png" alt="Thermometer 60 degree">
+                <img id="tmeter-85" src="images/85Thermometerorg.png" alt="Thermometer 85 degree">
                 <img id="tube_" src="images/Test Tube_.png" alt="Test Tube" class="move-tube1">
                 <img id="waterfill" src="images/Water Fill.png">
                 </div>
-            <footer>
-                <!-- Content for English -->
-                <div id="content-en">
-                    <a href="6.html"><button class="prev">Prev</button></a>
-                    <h5 id="welcome">After all the sulphur has been dissolved, turn off the burner. Now, record the
-                        temperature every 30 s until all the naphthalene has
-                        solidified. Click "Next"</h5>
-                        <audio src="Sound/7-En.wav" autoplay></audio>
-                    <a href="8.html"><button class="next">Next</button></a>
-                </div>
-                <!-- Content for Hindi -->
-                <div id="content-hi" style="display:none">
-                    <a href="6.html"><button class="prev">पहले</button></a>
-                    <h5 class="welcome">सारा सल्फर घुल जाने के बाद, बर्नर बंद कर दें और टेस्ट ट्यूब को पानी के स्नान से बाहर निकाल लें। अब, हर 30 सेकंड में तापमान रिकॉर्ड करें जब तक कि सारा नेफ़थलीन जम न जाए। अगला पर क्लिक करें</h5>
-                    <a href="8.html"><button class="prev">आगे</button></a>
-                </div>
+          <footer>
+                <a href="6.html"><button id="prevBtn">Prev</button></a>
+                <h5 id="instructionText">After all the sulphur has been dissolved, turn off the burner. Now, record the temperature every 30 s until all the naphthalene has solidified. Click "Next"</h5>
+                <a href="8.html"><button id="nextBtn">Next</button></a>
             </footer>
+            <div id="language-switch">
+                <select id="langSelect">
+                    <option value="eng">ENG</option>
+                    <option value="hindi">हिंदी</option>
+                </select>
+            </div>
+             <div class="wrapper">
+            <p>
+            <span class="seconds">00</span>:<span class="tens">00</span>
+            </p> <br>
+        </div>
+
         </div>
         <script type="text/javascript" src="js/7.js"></script>
+        <script src="js/Script.js"></script>
+
     </body>
 </html>
