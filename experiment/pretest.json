@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The freezing point of a pure solvent is_______________ that of a dilute solution of a solute in the solvent.",
+      "question": "1.The freezing point of a pure solvent is_______________ that of a dilute solution of a solute in the solvent.",
       "answers": {
         "a": "less than",
         "b": "greater than",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2.colligative property of a solution depends on the?",
+      "question": "2.Colligative property of a solution depends on the?",
       "answers": {
         "a": "ratio of the number of solute particles to the numbr of solvent particles ",
         "b": "the pH of the solution",
