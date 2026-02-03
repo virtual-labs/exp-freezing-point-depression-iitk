@@ -26,7 +26,7 @@ Depression of freezing point,<br>
 <br>
 <img src="images/fig7.jpg" width="300" height="400"><br>
 <br>
-<centre><b>See the video!</b><centre></br><br>
+<!-- <centre><b>See the video!</b><centre></br><br> -->
 <b> Sample Data and Analysis </b></br>
 <b> Determination of freezing point of pure naphthalene and naphthalene-solute mixture </b><br>
 <br>
