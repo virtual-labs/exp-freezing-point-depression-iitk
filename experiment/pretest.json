@@ -9,63 +9,43 @@
         "c": "equal to",
         "d": "not related to"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
       "question": "2.Colligative property of a solution depends on the?",
       "answers": {
-        "a": "ratio of the number of solute particles to the numbr of solvent particles ",
+        "a": "ratio of the number of solute particles to the number of solvent particles ",
         "b": "the pH of the solution",
         "c": "density of the solute",
         "d": "the molecular weight of the solute"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
       "question": "3.The correct relation between depression of freezing point and molality is?",
       "answers": {
-        "a": "∆T_f=  i X K_f × molality ", 
-        "b": "∆T_f= K_f  /molality",
-        "c": "  ∆T_f= molality/K_f ",
-        "d": " ∆T_f= molality/K_b "
+      "a": "∆T<sub>f</sub> = i × K<sub>f</sub> × molality",
+      "b": "∆T<sub>f</sub> = K<sub>f</sub> / molality",
+      "c": "∆T<sub>f</sub> = molality / K<sub>f</sub>",
+      "d": "∆T<sub>f</sub> = molality / K<sub>b</sub>"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
       "question": "4.Unit of cryoscopic constant is ?",
       "answers": {
-        "a": "Kg. mol. K",
-        "b": "K-1. Kg. mol",
-        "c": "K. Kg. mol-1",
-        "d": "Kg.mol-1. K-1 constant"
+        "a": "Kg mol<sup>-1</sup> K",
+        "b": "K<sup>-1</sup> Kg mol",
+        "c": "K · Kg mol<sup>-1</sup>",
+        "d": "Kg mol<sup>-1</sup> K<sup>-1</sup> constant"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+    
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -77,12 +57,7 @@
         "c": "Number of gram equivalent of solute dissolved in 1 litre of the solvent ",
         "d": "Number of grams of solute dissolved in 1 kg of solvent "
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     }
