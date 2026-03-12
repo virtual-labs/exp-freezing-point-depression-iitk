@@ -20,14 +20,16 @@ G.	Clamp <br>
 <img src="images/fig6.jpg" width="500" height="600"><br>
 <br>
 Depression of freezing point,<br>
-<centre><b>∆T<sub>f</sub>=-(T<sub>f</sub><sup>1</sup>-T<sub>f</sub>)</b></centre><br>
+Depression of freezing point,<br>
+&Delta;T<sub>f</sub> = -(T<sub>f1</sub> - T<sub>f</sub>)
+<!--<centre><b>∆T<sub>f</sub>=-(T<sub>f</sub><sup>1</sup>-T<sub>f</sub>)</b></centre><br>-->
 <br>
 <b> Procedure in laboratory (diagram)</b><br>
 <br>
 <img src="images/fig7.jpg" width="300" height="400"><br>
 <br>
-<centre><b>See the video!</b><centre></br><br>
-<b> Data and the analysis </b></br>
+<!-- <centre><b>See the video!</b><centre></br><br> -->
+<b> Sample Data and Analysis </b></br>
 <b> Determination of freezing point of pure naphthalene and naphthalene-solute mixture </b><br>
 <br>
 <img src="images/fig8.png"><br>
@@ -39,19 +41,11 @@ Depression of freezing point,<br>
 <br>
 <b>Figure 1.</b> Temperature vs time graph of pure naphthalene and naphthalene-solute mixture.<br>
 <br>
-The cryoscopic constant (K_f) of naphthalene is 6.9 °C/molality. From the experiment, we measured the depression in the freezing point (ΔT_f) of naphthalene after adding the unknown solute is 5 °C. For the experiment 5 gm (w_solvent)of naphthalene was taken and 1 gm (w_solute)of unknown solute was added in naphthalene.  According to equation 5, the molecular weight of the solute added in the naphthalene solvent will be 
-M=K<sub>f</sub>×w<sub>solute</sub>×1000/ΔT<sub>f</sub>×w<b>solvent</b><br>
-
-M=(6.9×1×1000)/(5×5)=276 g mol<sup>(-1)</sup><br>
+The cryoscopic constant (K<sub>f</sub>) of naphthalene is 6.9 °C/molality. From the experiment, we measured the depression in the freezing point (ΔT<sub>f</sub>) of naphthalene after adding the unknown solute is 5 °C. For the experiment 5 gm (w_solvent)of naphthalene was taken and 1 gm (w<sub>solute</sub>)of unknown solute was added in naphthalene.  According to equation 5, the molecular weight of the solute added in the naphthalene solvent will be <br>
+<!--M = K<sub>f</sub> × w<sub>solute</sub> × 1000 / ΔT<sub>f</sub> × w <sub>solvent</sub><br>-->
+M = (K<sub>f</sub> × w<sub>solute</sub> × 1000) / (ΔT<sub>f</sub> × w<sub>solvent</sub>)<br>
+M = (6.9×1×1000) / (5×5) = 276 g mol<sup>(-1)</sup><br>
 <br>
-
-<b> Procedure in simulator of the experiment</b><br>
-<br>
-To be added based on the simulation
-
-<b>Analysis</b><br>
-<br>
-From the experiment, the molecular weight of the unknown solute is measured as 272 g/mol. In this experiment, rhombic sulphur (S8) was used as the unknown solute which has an actual mass of 256 g/mol.
 
 
 

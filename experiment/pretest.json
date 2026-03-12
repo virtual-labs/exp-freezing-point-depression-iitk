@@ -2,87 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1.After adding a solute in a solvent, the freezing point of the solvent is found to be decreased. This observation is referred as ?",
+      "question": "1.The freezing point of a pure solvent is_______________ that of a dilute solution of a solute in the solvent.",
       "answers": {
-        "a": "Elevation of boiling point",
-        "b": "Depression of boiling point",
-        "c": "Depression of freezing point",
-        "d": "Elevation of freezing point"
+        "a": "less than",
+        "b": "greater than",
+        "c": "equal to",
+        "d": "not related to"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "2.The colligative property depends on the?",
+      "question": "2.Colligative property of a solution depends on the?",
       "answers": {
-        "a": "Number of total solvent present ",
-        "b": "Amount of total solvent present ",
-        "c": "Amount of added solute",
-        "d": "Number of added solute"
+        "a": "ratio of the number of solute particles to the number of solvent particles ",
+        "b": "the pH of the solution",
+        "c": "density of the solute",
+        "d": "the molecular weight of the solute"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "d",
+     
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
       "question": "3.The correct relation between depression of freezing point and molality is?",
       "answers": {
-        "a": "∆T_f= K_f  ×molality", 
-        "b": "∆T_f= K_f  /molality",
-        "c": "  ∆T_f= molality/K_f ",
-        "d": " ∆T_f= molality/K_b "
+      "a": "∆T<sub>f</sub> = i × K<sub>f</sub> × molality",
+      "b": "∆T<sub>f</sub> = K<sub>f</sub> / molality",
+      "c": "∆T<sub>f</sub> = molality / K<sub>f</sub>",
+      "d": "∆T<sub>f</sub> = molality / K<sub>b</sub>"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
       "question": "4.Unit of cryoscopic constant is ?",
       "answers": {
-        "a": "Kg. mol. K",
-        "b": "K-1. Kg. mol",
-        "c": "K. Kg. mol-1",
-        "d": "Kg.mol-1. K-1 constant"
+        "a": "Kg mol<sup>-1</sup> K",
+        "b": "K<sup>-1</sup> Kg mol",
+        "c": "K · Kg mol<sup>-1</sup>",
+        "d": "Kg mol<sup>-1</sup> K<sup>-1</sup> constant"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+    
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
       "question": "5.The definition of molality for a solution is ?",
       "answers": {
-        "a": "Number of moles of solute dissolved in per Kg of the solvent", 
-        "b": "Number of moles of solute dissolved in per mL of the solvent ",
-        "c": "Number of gram equivalent of solute dissolved in per mL of the solvent ",
-        "d": "None of the above "
+        "a": "Number of moles of solute dissolved in 1 Kg of the solvent", 
+        "b": "Number of moles of solute dissolved in 1 litre of the solvent ",
+        "c": "Number of gram equivalent of solute dissolved in 1 litre of the solvent ",
+        "d": "Number of grams of solute dissolved in 1 kg of solvent "
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     }
