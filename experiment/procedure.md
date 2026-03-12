@@ -41,7 +41,7 @@ Depression of freezing point,<br>
 <br>
 <b>Figure 1.</b> Temperature vs time graph of pure naphthalene and naphthalene-solute mixture.<br>
 <br>
-The cryoscopic constant (K<sub>f</sub>) of naphthalene is 6.9 °C/molality. From the experiment, we measured the depression in the freezing point (ΔT<sub>f</sub>) of naphthalene after adding the unknown solute is 5 °C. For the experiment 5 gm (w_solvent)of naphthalene was taken and 1 gm (w<sub>solute</sub>)of unknown solute was added in naphthalene.  According to equation 5, the molecular weight of the solute added in the naphthalene solvent will be 
+The cryoscopic constant (K<sub>f</sub>) of naphthalene is 6.9 °C/molality. From the experiment, we measured the depression in the freezing point (ΔT<sub>f</sub>) of naphthalene after adding the unknown solute is 5 °C. For the experiment 5 gm (w_solvent)of naphthalene was taken and 1 gm (w<sub>solute</sub>)of unknown solute was added in naphthalene.  According to equation 5, the molecular weight of the solute added in the naphthalene solvent will be <br>
 <!--M = K<sub>f</sub> × w<sub>solute</sub> × 1000 / ΔT<sub>f</sub> × w <sub>solvent</sub><br>-->
 M = (K<sub>f</sub> × w<sub>solute</sub> × 1000) / (ΔT<sub>f</sub> × w<sub>solvent</sub>)<br>
 M = (6.9×1×1000) / (5×5) = 276 g mol<sup>(-1)</sup><br>
