@@ -1,0 +1,67 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.The freezing point of a pure solvent is_______________ that of a dilute solution of a solute in the solvent.",
+      "answers": {
+        "a": "less than",
+        "b": "greater than",
+        "c": "equal to",
+        "d": "not related to"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2.Colligative property of a solution depends on the?",
+      "answers": {
+        "a": "ratio of the number of solute particles to the number of solvent particles ",
+        "b": "the pH of the solution",
+        "c": "density of the solute",
+        "d": "the molecular weight of the solute"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3.The correct relation between depression of freezing point and molality is?",
+      "answers": {
+      "a": "∆T<sub>f</sub> = i × K<sub>f</sub> × molality",
+      "b": "∆T<sub>f</sub> = K<sub>f</sub> / molality",
+      "c": "∆T<sub>f</sub> = molality / K<sub>f</sub>",
+      "d": "∆T<sub>f</sub> = molality / K<sub>b</sub>"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4.Unit of cryoscopic constant is ?",
+      "answers": {
+        "a": "Kg mol<sup>-1</sup> K",
+        "b": "K<sup>-1</sup> Kg mol",
+        "c": "K · Kg mol<sup>-1</sup>",
+        "d": "Kg mol<sup>-1</sup> K<sup>-1</sup> constant"
+      },
+    
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.The definition of molality for a solution is ?",
+      "answers": {
+        "a": "Number of moles of solute dissolved in 1 Kg of the solvent", 
+        "b": "Number of moles of solute dissolved in 1 litre of the solvent ",
+        "c": "Number of gram equivalent of solute dissolved in 1 litre of the solvent ",
+        "d": "Number of grams of solute dissolved in 1 kg of solvent "
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+      
+    
+  ]
+}

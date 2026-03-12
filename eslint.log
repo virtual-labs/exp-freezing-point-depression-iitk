@@ -1,0 +1,63 @@
+
+/home/runner/work/exp-freezing-point-depression-iitk/exp-freezing-point-depression-iitk/experiment/simulation/js/1.js
+   5:7  warning  'gaugeToTripodTargetX' is assigned a value but never used    no-unused-vars
+   6:7  warning  'gaugeToTripodTargetY' is assigned a value but never used    no-unused-vars
+  13:7  warning  'tripodToBurnerTargetX' is assigned a value but never used   no-unused-vars
+  14:7  warning  'tripodToBurnerTargetY' is assigned a value but never used   no-unused-vars
+  17:7  warning  'waterToBeakerDuration' is assigned a value but never used   no-unused-vars
+  21:7  warning  'tripodUpwardMovement' is assigned a value but never used    no-unused-vars
+  23:7  warning  'tripodToBurnerDuration' is assigned a value but never used  no-unused-vars
+  29:7  warning  'gaugeToTripodDuration' is assigned a value but never used   no-unused-vars
+
+/home/runner/work/exp-freezing-point-depression-iitk/exp-freezing-point-depression-iitk/experiment/simulation/js/2.js
+   95:28  warning  Irregular whitespace not allowed  no-irregular-whitespace
+   95:30  warning  Irregular whitespace not allowed  no-irregular-whitespace
+   95:32  warning  Irregular whitespace not allowed  no-irregular-whitespace
+   95:43  warning  Irregular whitespace not allowed  no-irregular-whitespace
+   99:15  warning  Irregular whitespace not allowed  no-irregular-whitespace
+   99:25  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  118:20  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  131:37  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  240:32  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  243:12  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  243:29  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  246:49  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  259:55  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  261:57  warning  Irregular whitespace not allowed  no-irregular-whitespace
+
+/home/runner/work/exp-freezing-point-depression-iitk/exp-freezing-point-depression-iitk/experiment/simulation/js/3.js
+   9:5   warning  'spatulaMoved' is assigned a value but never used  no-unused-vars
+  39:25  warning  'napthalene' is not defined                        no-undef
+  47:25  warning  'weight_' is not defined                           no-undef
+
+/home/runner/work/exp-freezing-point-depression-iitk/exp-freezing-point-depression-iitk/experiment/simulation/js/4.js
+  107:48  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  117:31  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  117:35  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  117:41  warning  Irregular whitespace not allowed  no-irregular-whitespace
+  117:44  warning  Irregular whitespace not allowed  no-irregular-whitespace
+
+/home/runner/work/exp-freezing-point-depression-iitk/exp-freezing-point-depression-iitk/experiment/simulation/js/5.js
+   6:5   warning  'spatulaMoved' is assigned a value but never used  no-unused-vars
+  34:25  warning  'sulphur' is not defined                           no-undef
+  35:25  warning  'sulphur_' is not defined                          no-undef
+  36:25  warning  'cap' is not defined                               no-undef
+  46:24  warning  'cap' is not defined                               no-undef
+
+/home/runner/work/exp-freezing-point-depression-iitk/exp-freezing-point-depression-iitk/experiment/simulation/js/6.js
+   2:7   warning  'thermometer' is assigned a value but never used  no-unused-vars
+   6:7   warning  'stirrer' is assigned a value but never used      no-unused-vars
+   8:5   warning  'isStirring' is assigned a value but never used   no-unused-vars
+  11:5   warning  'standMoved' is assigned a value but never used   no-unused-vars
+  23:13  warning  'scale4' is not defined                           no-undef
+  24:13  warning  'scale_' is not defined                           no-undef
+
+/home/runner/work/exp-freezing-point-depression-iitk/exp-freezing-point-depression-iitk/experiment/simulation/js/7.js
+   1:7  warning  'tube_' is assigned a value but never used                no-unused-vars
+  24:5  warning  'thermometerInserted' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-freezing-point-depression-iitk/exp-freezing-point-depression-iitk/experiment/simulation/js/Script.js
+  96:10  error  Parsing error: Identifier 'updateInstruction' has already been declared
+
+✖ 44 problems (1 error, 43 warnings)
+
